@@ -1,0 +1,83 @@
+.joke-list{
+    width: 1000px;
+    min-height: 500px;
+    display: flex;
+    margin: 15rem 0;
+    padding: 0;
+    background-color: none;
+}
+
+.joke-list-side-bar{
+    width: 30%;
+    height: 570px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.joke-list-jokes{
+    width: 70%;
+    max-height: 500px;
+    overflow-y: scroll;
+    margin: 2rem 0 0 0;
+    background-color: azure;
+    padding-left: .5rem;
+    
+}
+
+.joke-list-jokes::-webkit-scrollbar{
+  width: 10px;
+}
+
+.joke-list-jokes::-webkit-scrollbar-track{
+  background-color: azure;
+  border-radius: 15px;
+  margin: .3rem 0;
+}
+
+.joke-list-jokes::-webkit-scrollbar-thumb{
+  background-color: antiquewhite;
+  border: 3px solid azure;
+  border-radius: 20px;
+}
+
+.get-jokes-btn{
+  background-color: #4b79a1;
+  border: 1px solid rgb(175, 175, 175);
+  color: white;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.container {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+.joke-list-spinner{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.joke-list-spinner .loading{
+  font-size: 3rem;
+  font-weight: 1000;
+  letter-spacing: 5px;
+}
+
+.em-sweat_smile{
+  font-size: 7rem;
+  margin: 2rem 0;
+}

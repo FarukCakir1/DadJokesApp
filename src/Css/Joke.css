@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.joke{
+    width: 100%;
+    height: 5rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: 2px solid rgb(150, 150, 150);
+}
+
+.single-joke{
+    width: 70%;
+}
+
+.joke-emo{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+}
+
+.red{
+    color: red;
+}
+
+.ice{
+    color: #4b79a1;
+}
+
+.yellow{
+    color: rgb(224, 224, 71);
+}
+
+.joke-vote{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    
+}
+
+.vote{
+    margin: 0 1rem .3rem 1rem;
+}
+
+button{
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+}
+
